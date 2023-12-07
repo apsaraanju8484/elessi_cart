@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .cartItem {
@@ -43,4 +44,7 @@
   border-radius: 8px;
   margin: 10px;
   cursor: pointer;
+}
+.top{
+  margin-top: -170px;
 }
