@@ -36,12 +36,12 @@ export const Product = (props) => {
           </div>
           <div className='row'>
             <div className='float-start col-md-8'>
-            <Link to={`/product/${id}`}>
+            {/* <Link to={`/product/${id}`}>
       <div>
         <h6>{productName}</h6>
-        {/* Add other product details */}
+     
       </div>
-    </Link>
+    </Link> */}
                <h6 className='text-justify '>{productName}</h6>
             
               <p className='text-justify'>$ {price} </p>
